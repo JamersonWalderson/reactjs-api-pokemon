@@ -1,12 +1,25 @@
-import React from 'react';
+import React, {useState} from 'react';
+
+// const [type, setType] = useState([]);
+// Grama, Veneno, Fogo, Voar, Água, Inseto, Normal, Elétrico, Solo, Luta, Psíquico, Pedra, Gelo
+// Grass, Poison, Fire, Flying, Water, Bug, Normal, Eletric, Ground, Fighting, Psychic, Rock, Ice
 
 function Radio() {
-
   return(
-    <div>
-      <input className="form-check-input mx-1" type="radio" name="pokemonRadioOptions" id="pokemonRadio1" value="option1" /> Terra
-      <input className="form-check-input mx-1" type="radio" name="pokemonRadioOptions" id="pokemonRadio2" value="option2" /> Vento
-      <input className="form-check-input mx-1" type="radio" name="pokemonRadioOptions" id="pokemonRadio3" value="option3" /> Lama
+    <div className="col-md-12 my-5" id="form">
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="grass" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Grama
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="poison" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Veneno
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="Fire" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Fogo
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="Flying" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Voador
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="Water" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Água
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="Bug" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Inseto
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="Normal" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Normal
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="Eletric" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Elétrico
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="Ground" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Solo
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="Fighting" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Lutador
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="Psychic" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Psíquico
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="Rock" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Pedra
+      <input className="form-check-input" type="radio" name="pokemonRadioOptions" value="Ice" onChange={(e)=>(alert("Clicou: " +e.target.value))} /> Gelo
     </div>
   )
 }
