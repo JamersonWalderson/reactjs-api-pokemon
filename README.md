@@ -7,5 +7,8 @@ Consumo da API pokémons disponibilizada pelo canalTi usando ReactJS.
 ![Demo](https://github.com/JamersonWalderson/reactjs-api-pokemon/blob/main/demo.gif)
 
 # Como fazer a instação
-- $ git clone https://github.com/JamersonWalderson/challenge-mesha.git
+- Acesse http://cors-anywhere.herokuapp.com/ e habilite o cors-anywhere
+- $ git clone https://github.com/JamersonWalderson/reactjs-api-pokemon.git
 - $ cd reactjs-api-pokemon
+- $ npm install
+- $ npm start
