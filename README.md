@@ -1,5 +1,7 @@
 # reactjs-api-pokemon
-Projeto semelhante ao https://github.com/JamersonWalderson/php-api-pokemon porém feito em reactjs
+Projeto desenvolvido em reactjs com fins de estudo sinta-se livre para usar o código como bem quiser. Se gostou não deixe de dar uma estrela e se quiser relatar algum problema abra uma issues que logo mais será atendida.
+
+Semelhante ao https://github.com/JamersonWalderson/php-api-pokemon porém feito em reactjs.
 
 Consumo da API pokémons disponibilizada pelo canalTi usando ReactJS.
 - https://www.canalti.com.br/api/pokemons.json
