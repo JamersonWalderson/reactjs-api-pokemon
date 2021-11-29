@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 
-// const [type, setType] = useState([]);
-// Grama, Veneno, Fogo, Voar, Água, Inseto, Normal, Elétrico, Solo, Luta, Psíquico, Pedra, Gelo
-// Grass, Poison, Fire, Flying, Water, Bug, Normal, Eletric, Ground, Fighting, Psychic, Rock, Ice
-
+/**
+ * Este componente será implementado no futuro
+ * e tera como funcionalidad filtrar os tipos de pokemons
+ */
 function Radio() {
   return(
     <div className="col-md-12 my-5" id="form">
@@ -25,3 +25,6 @@ function Radio() {
 }
 
 export default Radio;
+
+// Grama, Veneno, Fogo, Voar, Água, Inseto, Normal, Elétrico, Solo, Luta, Psíquico, Pedra, Gelo
+// Grass, Poison, Fire, Flying, Water, Bug, Normal, Eletric, Ground, Fighting, Psychic, Rock, Ice

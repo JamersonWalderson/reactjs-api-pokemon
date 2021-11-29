@@ -2,9 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Card from '../../components/card/Card.js';
 import Radio from '../../components/radio/Radio.js';
-import DataList from '../../components/input/dataList.js';
-import Search from '../../components/search/Search.js';
-
 
 const solvingCorsProblem = 'http://cors-anywhere.herokuapp.com/';
 const baseURL = solvingCorsProblem+'https://www.canalti.com.br/api/pokemons.json';
@@ -39,7 +36,6 @@ function Home() {
             />
         </div>
         
-        {/* <Radio /> */}
       </div>
 
       <section className="row justify-content-center" id="pokemon-cards">

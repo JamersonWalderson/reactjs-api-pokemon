@@ -1,6 +1,9 @@
 import React from 'react';
 
-function dataList(props) {
+/**
+ * Este componente será implementado no futuro
+ */
+function DataList(props) {
   return(
     <div class="col-md-10">
         <input 
@@ -15,4 +18,4 @@ function dataList(props) {
   )
 }
 
-export default dataList;
+export default DataList;
