@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Input(props) {
+function dataList(props) {
   return(
     <div class="col-md-10">
         <input 
@@ -15,4 +15,4 @@ function Input(props) {
   )
 }
 
-export default Input;
+export default dataList;
